@@ -1,0 +1,690 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+
+}
+.bga{
+     background-color: #dfe4ea;
+}
+
+   
+.nav-link{
+     font-size:17px ;
+     text-transform: uppercase;
+     color: black !important;
+     margin: 5px;
+     padding: 5px;
+     z-index: 2;
+}
+.nav-link:hover{
+     color: rgb(219, 2, 2) !important;
+}
+/* header banner 
+*/
+.header-banner{
+   background:  linear-gradient( rgb(18, 18, 133),rgba(21, 31, 160, 0.5)),url(./ulaecha-img/Technology__-11-pepn1lkx1z8urolwviw08mbshux4t0dfa5p9kxxoxc.jpg);
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 100%;
+   background-attachment: scroll;
+  
+  width: 100%;
+  text-align: center;
+ height: 90vh;
+}
+
+
+.header-banner h1{
+     font-size: 60px;
+     color: white;
+     text-transform: capitalize;
+     font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     animation-delay: 1s;
+}
+.banner-p{
+     font-size: 10px;
+     color: white;
+     text-transform: uppercase;
+}
+
+.header-banner p{
+     font-size: 22px;
+     color: white;
+     font-weight: 500;
+     line-height: 30px;
+     animation-delay: 2s;
+
+}
+.banner-fla{
+     max-width: 800px;
+}
+.navbar-toggler button{
+     background: black;
+     color: white;
+}
+
+.bannner-nutton-1{
+     font-size: 23px;
+     padding: 8px;
+     border: none;
+     color: white;
+     animation-delay: 3s;
+
+     outline: none !important;
+     background: linear-gradient(to right, blue, rgb(175, 15, 103));
+ transition: 0.5s;
+ margin: 5px;
+
+}
+.vanber{
+     background-color: white;
+     position: fixed;
+     width: 100%;
+     height: auto;
+}
+.bannner-nutton-1:hover{
+     background: white !important;
+     color: black;
+}
+.bannner-nutton-2{
+     background: white !important;
+     color: black;
+     transition: 0.5s;
+     font-size: 23px;
+     padding: 8px;
+     animation-delay: 4s;
+
+     border: none;
+     margin: 5px;
+
+     outline: none !important;
+
+}
+.bannner-nutton-2:hover{
+
+
+     background: linear-gradient(to right, blue, rgb(175, 15, 103)) !important;
+}
+.animi{
+     animation:  shamim 5s linear forwards;
+     opacity: 0;
+}
+@keyframes shamim {
+
+    
+     100%{
+          transform: translateY(100px);
+          opacity: 1;
+     }
+     
+}
+
+/* service section */
+
+#servics-section{
+  
+     margin: auto;
+     
+}
+
+.servoce-flaex p{
+     font-size: 18px;
+     color: green;
+}
+.servoce-flaex h1{
+     font-size: 60px;
+}
+.servoce-flaex h6{
+     font-size: 25px;
+     opacity: 0.9;
+}
+
+
+.servis-box{
+
+     background-color: white; 
+     border-radius: 15px;
+     
+     padding: 18px;
+    transition: 1.5s;
+     
+}
+.servis-box:hover{
+ color: white;
+     background: linear-gradient( blue, rgb(175, 15, 103)) ; 
+ 
+}
+
+.servis-box h1{
+     font-size: 30px;
+     font-weight: 700;
+     margin: 8px 0;
+}
+.servis-box p{
+     font-size: 18px;
+     opacity: 0.9;
+     margin: 5px 0;
+}
+.icon-servoce i{
+     font-size: 40px;
+     padding: 17px ;
+     color: white;
+     margin: 8px 0;
+     border-radius: 50%;
+     background: linear-gradient( blue, rgb(175, 15, 103)) ;
+}
+.icon-servoce i:hover{
+     background: white;
+     color: black;
+}
+.smoll-bannet{
+     background: url(./ulaecha-img/abs_bg_2.jpg);
+     width: 100%;
+     margin: 20px 0;
+     height: auto;
+     padding: 25px 10px;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.box-smm{
+     text-align: center;
+}
+.box-smm h1{
+     font-size: 50px;
+     font-weight: bolder;
+     color: white;
+}
+.box-smm p{
+     font-size: 25px;
+     color: white;
+}
+.box-smm .div i{
+     font-size: 30px;
+     color: white;
+}
+
+/* about section */
+.about-img img{
+     width: 100%;
+     height: 69vh;
+     border-radius: 20px;
+     margin: 8px;
+     
+}
+
+.about-text p {
+     font-size: 17px;
+     color: blue;
+     margin: 10px 0;
+}
+.about-text h1{
+     font-size: 40px;
+     font-weight: 900;
+
+}
+.about-text h6{
+     font-size: 20px;
+     opacity: 0.9;
+     line-height: 33px;
+     margin: 5px 0;
+
+}
+.about-text samp{
+     font-size: 40px;
+     color: blue;
+}
+.blog-div .boll{
+     width: 17px;
+     height: 17px;
+     border-radius: 50%;
+     background-color: blue;
+}
+.blog-div .text-boll{
+ font-size: 20px;
+ opacity: 0.9;
+
+}
+.about-text button{
+     outline: none;
+     border: none;
+
+     padding: 14px 20px;
+     font-size: 18px;
+     color: white;
+     transition: 5s;
+     background:  linear-gradient( to right, blue, rgb(201, 11, 153));
+     border-radius: 8px;
+     margin: 8px 0;
+}
+.about-text button:hover{
+     background:  linear-gradient(to right,  rgb(201, 11, 153),blue);
+
+}
+
+.portfolio-hrad p{
+ font-size: 15px;
+ color: blue;
+ margin: 10px 0;
+
+
+}
+.portfolio-hrad h1{
+     font-size: 35px;
+    
+     font-weight: 900;
+}
+.portfolio-hrad h6{
+     font-size: 18px;
+     opacity: 0.8;
+     line-height: 30px;
+}
+.portfolio-box{
+     max-width: 700px;
+     margin: auto;
+}
+
+/* portfolio */
+
+.fortfolio{
+     position: relative;
+     margin: 10px;
+    
+}
+.fortfolio img{
+     position: relative;
+     padding: 8px;
+     border-radius: 10px;
+    background-color: white;
+
+}
+.text-portfolio {
+     position: relative;
+     background-color: #ffff !important;
+     padding: 8px;
+     width: 95%;
+   bottom: 80px;
+   border-radius: 8px;
+     text-align: center;
+}
+.text-portfolio h1{
+     font-size: 25px;
+     font-weight: 800;
+}
+.text-portfolio p{
+     font-size: 17px;
+     color: blue;
+     margin: 10px 0;
+}
+.Potfolio-icon i{
+     font-size: 20px;
+     padding: 10px;
+     box-shadow: 2px 2px 2px 2px #a1a1adde;
+     background-color: white;
+     border-radius: 50%;
+     color: blue;
+     transition: 0.5s;
+     margin: 8px;
+    
+}
+.Potfolio-icon i:hover{
+     background-color: blue;
+     color: white;
+    
+}
+.fortfolio img{
+     width: 100%;
+     height: 100%;
+}
+/* TEXT TROMONIL */
+.img-test{   
+      width: 100%;
+     height: 100%;
+     overflow: hidden;
+     border-radius: 15px;
+}
+ .img-test img{
+     width: 100%;
+     height: 100%;
+     transition: 0.8s;
+     transform: scale(1);
+     border-radius: 15px;
+
+}
+.img-test img:hover{
+     border-radius: 15px;
+
+     transform: scale(1.1);
+}
+.test-hrad {
+     background-color: aliceblue;
+     padding: 20px;
+     border-radius: 15px;
+}
+.test-hrad p{
+     font-size: 35px;
+     font-weight: 800;
+}
+.test-hrad  button{
+     outline: none;
+     border: none;
+     padding: 5px 15px;
+     font-size: 18px;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 7px;
+     background: linear-gradient( to right,rgb(3, 3, 214),rgb(219, 12, 167));
+}
+.test-hrad  button:hover{
+     background:white;
+     color: black;
+}
+
+/* blog section */
+
+#blog-section{
+     background:  linear-gradient( rgb(49, 49, 190),rgba(190, 90, 177, 0.767)),url(./ulaecha-img/Technology__-9.jpg);
+  width: 100%;
+color: white;
+  height: auto;
+  padding: 50px 10px;
+
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.hhhhhh{
+     color: white !important;
+}
+.img-box-blo img{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+
+
+}
+.hed-text h1{
+
+     font-size: 20px;
+
+
+}
+.hed-text p{
+     font-size: 18px;
+     color: blue;
+}
+.blog-box{
+     background: white !important;
+     padding: 15px;
+     color: black !important;
+     border-radius: 15px;
+     text-align: center;
+}
+.blog-box p{
+     font-size: 18px;
+     line-height: 32px;
+}
+
+.blog-box i{
+     font-size: 45px;
+     color: blue;
+     margin: 5px 0;
+}
+
+/* faqs section */
+
+.faqe-text h6{
+     font-size: 18px;
+     color: blue;
+     margin: 10px 0;
+}
+.faqe-text h1{
+     font-size: 35px;
+     color: black;
+     margin: 10px 0;
+
+}
+.faqe-text p{
+     font-size: 18px;
+     opacity: 0.9;
+     margin: 10px 0;
+}
+
+.accordion-item{
+     color: black!important;
+     background-color: white !important;
+     border: none;
+     outline: none;
+}
+.accordion-button{
+    color: white;
+     font-size: 22px;
+     background: linear-gradient( to right, rgb(9, 9, 207),rgb(192, 7, 130))  ;
+
+
+}
+.header-boc-bloug{
+     border-radius: 15px;
+}
+.header-boc-bloug img{
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+position: relative;
+     
+}
+.text-dive {
+     position: relative;
+      bottom: 85px;
+     ;
+     max-width: 150px;
+     padding:10px 15px;
+      text-transform: uppercase;
+      font-size: 18px;
+     border-radius: 20px;
+     color: white;
+     background: linear-gradient( to right, rgb(9, 9, 207),rgb(192, 7, 130))  ;
+
+}
+.textbox-blog h2{
+     font-size: 30px;
+     margin: 10px 0;
+     opacity: 0.9;
+     font-weight: 800;
+     text-transform: capitalize;
+}
+.text-dive:hover{
+     background: white !important;
+     color: blue;
+}
+.div img{
+     width: 60px ;
+     height: 60px;
+   
+     border-radius: 50%;
+
+}
+.header-boc-bloug{
+     background-color: white !important;
+  
+}
+
+/* contact-section */
+
+.contact-head h2{
+     font-size: 37px;
+     color: black;
+     opacity: 0.9;
+     margin: 10px 0;
+
+}
+.contact-head p{
+     margin: 10px 0;
+     font-size: 18px;
+     opacity: 0.9;
+}
+.cogfdsaSDFGHJHH{
+     background: rgb(247, 243, 243) !important;
+}
+
+.contact-head {
+     background-color: white !important;
+     border-radius: 15px;
+     padding: 10px;
+     box-shadow:  2px 2px 2px 0 rgba(0,0,0,0.4);
+
+}
+input {
+ outline: none !important;
+ border: none !important;
+ background-color: #dfe4ea;
+ border-radius: 5px;
+ padding: 8px;
+ font-size: 20px;
+ opacity: 0.9;
+ width: 100%;
+}
+textarea{
+     outline: none !important;
+ border: none !important;
+ background-color: #dfe4ea;
+ border-radius: 5px;
+ height: 130px;
+ padding: 10px;
+ font-size: 20px;
+ opacity: 0.9;
+ width: 100%;
+}
+.chekbocx-box{
+     text-align: left !important;
+}
+button{
+     outline: none;
+     border: none;
+
+     padding: 14px 20px;
+     font-size: 18px;
+     color: white;
+     transition: 5s;
+     background:  linear-gradient( to right, blue, rgb(201, 11, 153));
+     border-radius: 8px;
+     margin: 8px 0;
+}
+button:hover{
+background:  linear-gradient(to right,  rgb(201, 11, 153),blue);
+
+}
+
+.contact-left{
+     text-align: center;
+     margin: 20px 0;
+     padding: 10px ;
+     box-shadow:  2px 2px 2px 0 rgba(0,0,0,0.4);
+ background: white  !important;
+     border-radius: 10px;
+
+}
+
+.contact-icon i{
+     font-size: 30px;
+     margin: 10px 0;
+     padding: 15px;
+     border-radius: 10px;
+     background:  linear-gradient( to right, blue, rgb(201, 11, 153));
+ color: white;
+
+}
+.contact-text p{
+     font-size: 20px;
+     opacity: 0.9;
+     margin: 10px 0;
+
+}
+.contact-text h6{
+     font-size: 17px;
+     opacity: 0.7;
+     margin: 4px 0;
+}
+.google-img{
+     width: 100%;
+     height: 60vh;
+     overflow: hidden;
+}
+.google-img img{
+     width: 100%;
+     height: 60vh;
+     transform: scale(1);
+     transition: 0.8s;
+}
+.google-img img:hover{
+     transform: scale(1.1);
+ 
+}
+
+.footer-section{
+     background: black !important;
+     padding: 10px;
+     color: white;
+}
+.col-lg-2  ul li{
+     list-style: none;
+     display: block;
+  margin: 15px 0;
+     
+
+}
+.col-lg-2  ul li a{
+  font-size: 19px;
+  margin: 15px 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  
+}
+.col-lg-2  ul li a:hover{
+     background-color: rgb(204, 8, 116);
+}
+.footer-section h1{
+     font-size: 23px;
+     font-weight: 800;
+     margin: 25px 0;
+
+}
+.footet-icon i{
+     padding: 10px;
+     font-size: 20px;
+     border-radius: 5px;
+     color: blue;
+     background:  white;
+  margin: 15px;
+   
+}
+.footet-icon i:hover{
+     background:  linear-gradient( to right, blue, rgb(201, 11, 153));
+ color:  white;
+}
+.call-box p{
+     font-size: 19px;
+     line-height: 25px;
+
+}
+
+.call-box h4{
+     font-size: 30px;
+
+     margin: 25px 0;
+
+}
+.call-box  h3{
+     font-size: 25px;
+     margin: 25px 0;
+}
+
+.call-box p{
+     font-size: 23px;
+     margin: 20px 0;
+}
